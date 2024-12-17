@@ -1,0 +1,38 @@
+<LinearLayout android:layout_height="match_parent" android:layout_width="match_parent"
+    android:gravity="center" android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/adde"
+        android:layout_marginTop="50dp"
+        android:background="#6BACE0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Movie"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/search"
+        android:layout_margin="10dp"
+        android:background="#6BACE0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="search movie"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/view"
+        android:layout_margin="10dp"
+        android:background="#6BACE0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View all movies"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/fisat"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="#6BACE0"
+        android:text="View fisat"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_margin="10dp"
+        android:id="@+id/exit"
+        android:background="#6BACE0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="exit"/>
+</LinearLayout>
