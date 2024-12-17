@@ -13,6 +13,8 @@
         android:layout_height="wrap_content"
         android:text="Username"/>
     <EditText
+        android:drawableLeft="@drawable/baseline_account_circle_24"
+        android:id="@+id/usename"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"/>
@@ -20,9 +22,16 @@
         android:layout_margin="10dp"
     android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Password"
+        android:text="Password"/>
+    <EditText
+        android:drawableLeft="@drawable/baseline_key_24"
+        android:id="@+id/passs"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
         android:inputType="numberPassword"/>
     <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/login"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Login"
